@@ -4,6 +4,8 @@ public class witcher {
 	private String name;
 	private int health;
 	private boolean hasSoul;
+	private int ehealth;
+	
 	
 	
 	public String getName() {
@@ -44,6 +46,15 @@ public class witcher {
 		}
 		else {
 			return false;
+		}
+		
+	}
+	
+	public void hacerDamage(int damage){
+		ehealth -= damage;
+		if (ehealth<0) ehealth = 0; {
+			
+			System.out.println("El enemigo está muerto");
 		}
 		
 	}
