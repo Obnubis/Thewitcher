@@ -4,6 +4,8 @@ public class witcher {
 	private String name;
 	private int health;
 	private boolean hasSoul;
+	private int ehealth;
+	
 	
 	
 	public String getName() {
@@ -48,9 +50,5 @@ public class witcher {
 		
 	}
 	
-	public void recibirDamage(int damage) {
-		health-= damage;
-		if (health<0) health = 0;
-	}
 
-}
+
