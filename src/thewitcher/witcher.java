@@ -50,13 +50,5 @@ public class witcher {
 		
 	}
 	
-	public void hacerDamage(int damage){
-		ehealth -= damage;
-		if (ehealth<0) ehealth = 0; {
-			
-			System.out.println("El enemigo está muerto");
-		}
-		
-	}
 
 }

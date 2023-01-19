@@ -16,6 +16,7 @@ public class Main {
 		else {
 			System.out.println(brujo.getName()+" está vivo");
 		}
+		System.out.println("continua luchando");
 	}
 	
 }
